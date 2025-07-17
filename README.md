@@ -1,10 +1,10 @@
-# ✈️ Flight Delay Prediction with Machine Learning
+# Flight Delay Prediction with Machine Learning
 
 This project aims to predict **flight departure delays** using flight and weather-related features. It includes data preprocessing, feature engineering, exploratory analysis, and training/testing of multiple machine learning regression models.
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **Target variable**: `DEP_DELAY` (departure delay in minutes)
 - **Features**: Flight metadata, time-based variables, and weather conditions
@@ -16,7 +16,7 @@ This project aims to predict **flight departure delays** using flight and weathe
 
 ---
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 - Histograms and boxplots for numeric feature distribution
 - Heatmap of feature correlations
@@ -24,7 +24,7 @@ This project aims to predict **flight departure delays** using flight and weathe
 
 ---
 
-## 🔧 Modeling Approach
+## Modeling Approach
 
 ### Data Split
 - Training: 80%
@@ -54,7 +54,7 @@ This project aims to predict **flight departure delays** using flight and weathe
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Each model was evaluated on:
 - **MAE**: Mean Absolute Error
@@ -65,7 +65,7 @@ Performance comparison is visualized using bar charts.
 
 ---
 
-## ✅ Results
+## Results
 
 - Top-performing models included:
   - **XGBoost**
@@ -75,7 +75,7 @@ Performance comparison is visualized using bar charts.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 - Feature histograms and boxplots
 - Correlation matrix heatmap
@@ -83,7 +83,7 @@ Performance comparison is visualized using bar charts.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Pandas, NumPy
